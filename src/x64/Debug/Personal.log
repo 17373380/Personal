@@ -1,0 +1,36 @@
+﻿  main.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\unordered_set(97,1): error C2280: “std::hash<_Kty>::hash(const std::hash<_Kty> &)”: 尝试引用已删除的函数
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\unordered_set(97,1): error C2280:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\unordered_set(97,1): error C2280:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\unordered_set(97,1): error C2280:             _Kty=std::pair<double,double>
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\unordered_set(97,1): error C2280:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(2144): message : 编译器已在此处生成“std::hash<_Kty>::hash”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(2144): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(2144): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(2144): message :             _Kty=std::pair<double,double>
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(2144): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(2144,1): message : “std::hash<_Kty>::hash(const std::hash<_Kty> &)”: 由于 基类 调用已删除或不可访问的函数“std::_Conditionally_enabled_hash<_Kty,false>::_Conditionally_enabled_hash(const std::_Conditionally_enabled_hash<_Kty,false> &)”，因此已隐式删除函数
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(2144,1): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(2144,1): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(2144,1): message :             _Kty=std::pair<double,double>
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(2144,1): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(2128,5): message : “std::_Conditionally_enabled_hash<_Kty,false>::_Conditionally_enabled_hash(const std::_Conditionally_enabled_hash<_Kty,false> &)”: 已隐式删除函数
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(2128,5): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(2128,5): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(2128,5): message :             _Kty=std::pair<double,double>
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\type_traits(2128,5): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\unordered_set(97): message : 在编译 类 模板 成员函数“std::unordered_set<std::pair<double,double>,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Kty>>::unordered_set(void)”时
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\unordered_set(97): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\unordered_set(97): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\unordered_set(97): message :             _Kty=std::pair<double,double>
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\unordered_set(97): message :         ]
+D:\大三下\软工\个人作业\Personal\Personal\src\main.cpp(3): message : 查看对正在编译的函数 模板 实例化“std::unordered_set<std::pair<double,double>,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Kty>>::unordered_set(void)”的引用
+D:\大三下\软工\个人作业\Personal\Personal\src\main.cpp(3): message :         with
+D:\大三下\软工\个人作业\Personal\Personal\src\main.cpp(3): message :         [
+D:\大三下\软工\个人作业\Personal\Personal\src\main.cpp(3): message :             _Kty=std::pair<double,double>
+D:\大三下\软工\个人作业\Personal\Personal\src\main.cpp(3): message :         ]
+D:\大三下\软工\个人作业\Personal\Personal\src\main.cpp(3): message : 查看对正在编译的 类 模板 实例化“std::unordered_set<std::pair<double,double>,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<_Kty>>”的引用
+D:\大三下\软工\个人作业\Personal\Personal\src\main.cpp(3): message :         with
+D:\大三下\软工\个人作业\Personal\Personal\src\main.cpp(3): message :         [
+D:\大三下\软工\个人作业\Personal\Personal\src\main.cpp(3): message :             _Kty=std::pair<double,double>
+D:\大三下\软工\个人作业\Personal\Personal\src\main.cpp(3): message :         ]
