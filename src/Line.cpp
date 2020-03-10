@@ -27,3 +27,7 @@ void Line::printLine() {
 		<< this->b << "*y+" 
 		<< this->c << "=0" << endl;
 }
+
+string Line::line2str() {
+	return to_string(this->a) + "*x+" + to_string(this->b)+ "*y+" + to_string(this->c) + "=0";
+}

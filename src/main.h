@@ -18,6 +18,7 @@ public:
 	Line(int x1, int y1, int x2, int y2);
 	~Line();
 	void printLine();
+	string line2str();
 };
 
 class Cross {
@@ -47,3 +48,7 @@ public:
 	void printLineSet();
 	void printCrossSet();
 };
+
+int str2int(string now);
+
+bool parallel(Line line1, Line line2);

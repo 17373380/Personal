@@ -16,6 +16,7 @@ int str2int(string now) {
 	return num;
 }
 
+
 int main(int argc, char** argv)
 {
 	ifstream in;
@@ -53,11 +54,11 @@ int main(int argc, char** argv)
 	}
 	in.close();
 	out << container.getCrossNum();
-	//cout << endl;
-	//container.printLineSet();
-	//cout << endl;
-	//container.printCrossSet();
-
+	/*cout << endl;
+	container.printLineSet();
+	cout << endl;
+	container.printCrossSet();*/
+	
 
 	return 0;
 
