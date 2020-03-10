@@ -30,9 +30,6 @@ int main(int argc, char** argv)
 			out.open(argv[i + 1]);
 		}
 	}
-	
-	in.open("input.txt");
-	out.open("output.txt");
 
 	string temp;
 	int lines = 0;
